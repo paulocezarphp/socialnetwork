@@ -1,0 +1,109 @@
+@media only screen and (min-width: 901px){
+    
+    *{
+    	padding: 0px;
+    	margin: 0px;
+    }
+
+	body{
+		padding: 0px;
+		margin: 0px;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	.site{
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		background: #f0f0f5;
+		overflow-y: auto;
+	}
+
+
+    /*---------------------------------------------------
+	GRID AND CARDS
+	---------------------------------------------------*/
+	.container{
+		width: 1024px;
+		transform: translateX(-50%);
+		left: 50%;
+		position: relative;
+		margin-top: 60px;
+	}
+    
+    
+    .cardpost{
+        background: #fff;
+        border-radius: 3px;
+        margin-bottom: 13px;
+    }
+
+    .cardpost-context{
+        padding: 20px;
+    }
+    
+    .cardpost-title{
+        color: #3366cc;
+        font-weight: bold;
+        margin-bottom: 10px;
+    } 
+
+    .cardpost-text{
+
+    }
+
+
+	/*---------------------------------------------------
+	GRID 
+	---------------------------------------------------*/
+    .grid{
+        display: grid;
+        grid-template-columns: 220px auto 240px;
+        grid-gap: 5px;
+    }
+
+    .grid-left{
+        padding: 20px;
+        color: #c43434;
+    }
+
+    .grid-center{
+        padding: 20px;
+    }
+
+    .grid-right{
+        padding: 20px;
+        color: #c43434;
+    }
+    
+
+    /*---------------------------------------------------
+	MENU
+	---------------------------------------------------*/
+    .menu{
+        position: relative;
+        left: 0px;
+        top: 0px;
+        width: 1024px;
+        
+        transform: translateX(-50%);
+        left: 50%;
+    }
+
+    .menu-item{
+        padding: 17px 20px;
+        float: left;
+        
+    }
+
+    .menu-icon{
+
+    }
+
+    .menu-input{
+
+    }
+
+	
+}
