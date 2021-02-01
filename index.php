@@ -11,7 +11,6 @@
     <link rel="stylesheet" type="text/css" href="app/system/css/style_desktop.css">
 </head>
 <body>
-   <div class="site">
    
    <?php
     
@@ -27,8 +26,6 @@
         }
 
    ?>
-
-   </div>
 
 </body>
 </html>

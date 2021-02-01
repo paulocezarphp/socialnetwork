@@ -1,12 +1,8 @@
-<div class="menu">
-	<div class="menu-item">Item A</div>
-	<div class="menu-item">Item A</div>
-	<div class="menu-item">Item A</div>
-	<div class="menu-item">Item A</div>
-	<div class="menu-item">Item A</div>
-</div>
+<?php
+   include("page_menu.php");
+?>
 
-
+<div class="site">
 <div class="container">
 	<div class="grid">
 		<div class="grid-left">
@@ -209,3 +205,4 @@
 		</div>
 	</div>	
 </div>	
+</div>  

@@ -1,11 +1,13 @@
 <?php
 
-function encrypt(){
+    $key_cryptography = "@Social!Network#"; //16 bits 
 
-}
+    function encrypt(){
 
-function decrypt(){
+    }
+
+    function decrypt(){
 	
-}
+    }
 
 ?>
