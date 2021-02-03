@@ -23,5 +23,13 @@
     function Validate_Genre($genre){
 	    return true;
     }
+    
+    function Create_User(){
+
+    }
+
+    function Delete_User($id_user){
+
+    }
 
 ?>
