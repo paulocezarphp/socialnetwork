@@ -49,8 +49,21 @@
        margin-bottom: 10px;
    } 
 
-   .cardpost-text{
+   .cardpost-image{
+       width: 100%;
+   }
 
+   .cardpost-heade{
+       display: grid;
+       grid-template-columns: 40px auto 40px;
+   }
+
+   .cardpost-photo-user{
+       width: 100%;
+   }
+
+   .cardpost-name-user{
+       font-size: 15px;
    }
 
    .box{
@@ -122,9 +135,9 @@
    }
 
    .menu-item{
-        padding: 17px 20px;
-        padding-top: 25px;
-        float: left;
+       padding: 17px 20px;
+       padding-top: 25px;
+       float: left;
    }
 
    .menu-icon{
