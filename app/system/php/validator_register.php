@@ -1,6 +1,6 @@
 <?php
 
-    /*------------------------------------------------------------------------------------------------
+   /*------------------------------------------------------------------------------------------------
    validation description
    ------------------------------------------------------------------------------------------------
    The validation fields return three different results, "true", "false", "null". The "true" fields 
@@ -10,38 +10,34 @@
    ------------------------------------------------------------------------------------------------*/
 
     function Validate_Name($name){
-	    return "";
+	      return "";
     }
 
     function Validate_Email($email){
-	    return "";
+	      return "";
     }
 
     function Validate_Password($password){
-	    return "";
+	      return "";
     }
 
     function Validate_Date_Birth($birth_day, $birth_month, $birth_year){
-	    return "";
+	      return "";
     }
 
     function Validate_Accepted_Terms($accepted_terms){
-	    return "";
+	      return "";
     }
 
     function Validate_Genre($genre){
-	    return "";
+	      return "";
     }
     
     function Create_User(){
-
+        return "";
     }
 
-    function Delete_User($id_user){
-
-    }
-
-    function ValidateExecution(){
+    function Validate_Register_Execution(){
     
    }
 

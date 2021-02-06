@@ -8,17 +8,48 @@
    something wrong with the field validation, the "null" means that the information is not mandatory, 
    that is, it is optional and not affects the overall validation of what is being performed.
    ------------------------------------------------------------------------------------------------*/
-    
-    function Validate_Title_Page($title){
-        return "";
+
+    function Validate_Name_Edit(){
+
     }
 
-    function Validate_Category_Page($category){
-    	return "";
+    function Validate_NameUser_Edit(){
+
     }
 
-    function Validate_Page_Execution(){
-   	
+    function Validate_Country_Of_Origin_Edit(){
+
     }
+
+    function Validate_Language_Edit(){
+
+    }
+
+    function Validate_Email_Edit(){
+    	
+    }
+
+    function Validate_Password_Edit(){
+    	
+    }
+
+    function Validate_Photo_Edit(){
+    	
+    }
+
+    function Validate_Description_Edit(){
+    	
+    }
+
+    function Validate_Profile_Access_Users(){
+        //public
+        //private
+        //only friends	
+    }
+
+    function Validate_date_of_birth_Edit(){
+    	
+    }
+
 
 ?>

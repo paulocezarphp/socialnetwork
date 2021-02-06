@@ -1,5 +1,5 @@
 <?php
-    
+
    /*------------------------------------------------------------------------------------------------
    validation description
    ------------------------------------------------------------------------------------------------
@@ -8,17 +8,13 @@
    something wrong with the field validation, the "null" means that the information is not mandatory, 
    that is, it is optional and not affects the overall validation of what is being performed.
    ------------------------------------------------------------------------------------------------*/
-    
-    function Validate_Title_Page($title){
+
+    function validate_message(){
         return "";
     }
 
-    function Validate_Category_Page($category){
-    	return "";
+    function Validate_Message_Execution(){
+   	   
     }
-
-    function Validate_Page_Execution(){
-   	
-    }
-
+    
 ?>

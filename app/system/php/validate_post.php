@@ -11,23 +11,23 @@
    
    ------------------------------------------------------------------------------------------------*/
 
-   function ValidateContext(){
+   function Validate_Context(){
        return "";
    }
 
-   function ValidateImages(){
+   function Validate_Images(){
        return "";
    }
 
-   function ValidateVideo(){
+   function Validate_Video(){
        return "";
    }
 
-   function ValidateMarkUser(){
+   function Validate_MarkUser(){
        return "";
    }
 
-   function ValidateExecution(){
+   function Validate_Post_Execution(){
        
    }
 
