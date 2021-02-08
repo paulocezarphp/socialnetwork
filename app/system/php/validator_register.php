@@ -10,27 +10,92 @@
    ------------------------------------------------------------------------------------------------*/
 
     function Validate_Name($name){
-	      return "";
+    	$name_count = count($name);
+        
+        if($name != null){
+            if($name_count >= 5 And < $name_count <= 50){
+               return true;    
+    	    }else{
+    		   return false;
+    	    } 
+        }else{
+        	return false;
+        }
+    	
+
     }
 
     function Validate_Email($email){
-	      return "";
+
+	    if($email != null){
+
+            if($name_count >= 5 And < $name_count <= 255){
+
+               return true;   
+
+    	    }else{
+
+    		   return false;
+
+    	    } 
+
+        }else{
+
+        	return false;
+
+        }
     }
 
     function Validate_Password($password){
-	      return "";
+
+	    $password_count = count($password);
+
+    	if($password_count >= 8){
+            return true;    
+    	}else{
+    		return false;
+    	} 
+
     }
 
     function Validate_Date_Birth($birth_day, $birth_month, $birth_year){
-	      return "";
+	      
+	    if($birth_day != null And $birth_month != null And $birth_year != null){
+	        return true;    	
+	    }else{
+	        return false;
+	    }
+
     }
 
     function Validate_Accepted_Terms($accepted_terms){
-	      return "";
+	      
+	    if($accepted_terms == "on" or $accepted_terms == true){
+            return true;
+	    }else{
+            return false;
+	    }
+
     }
 
     function Validate_Genre($genre){
-	      return "";
+	      
+	    if($genre != null){
+
+            if($genre == "male" Or $genre == "female" Or $genre == "dont report"){
+
+                return true; 
+            
+            }else{
+
+            	return false; 
+
+            }
+
+	    }else{
+            return false; 
+	    }
+
     }
     
     function Create_User(){

@@ -10,7 +10,19 @@
    ------------------------------------------------------------------------------------------------*/
     
     function Validate_Title_Page($title){
-        return "";
+        
+        if($title != null){
+
+            if(count($title) > 3){
+                return true;
+            }else{
+                return false;  
+            }
+
+        }else{
+            return false;
+        }
+
     }
 
     function Validate_Category_Page($category){
