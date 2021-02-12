@@ -33,6 +33,10 @@
     	
     }
 
+    function Validate_Repeat_Password_Edit(){
+      
+    }
+
     function Validate_Photo_Edit(){
     	
     }
@@ -50,6 +54,8 @@
     function Validate_date_of_birth_Edit(){
     	
     }
+
+    
 
 
 ?>

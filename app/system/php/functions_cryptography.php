@@ -7,7 +7,7 @@
        $algorithm, 
        $key, 
        OPENSSL_RAW_DATA, $key);
-       
+      
        return base64_encode($string); 
     }
 

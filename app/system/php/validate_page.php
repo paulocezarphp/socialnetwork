@@ -26,7 +26,7 @@
     }
 
     function Validate_Category_Page($category){
-    	return "";
+    	  return "";
     }
 
     function Validate_Page_Execution(){
