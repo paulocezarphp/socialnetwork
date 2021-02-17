@@ -10,11 +10,11 @@
    ------------------------------------------------------------------------------------------------*/
 
     function Validate_Name($name){
-	   return true;
+	      return true;
     }
 
     function Validate_Email($email){
-	   return true;
+	      return true;
     }
 
     function Validate_Login_Execution(){

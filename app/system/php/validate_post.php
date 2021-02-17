@@ -11,15 +11,15 @@
    
    ------------------------------------------------------------------------------------------------*/
 
-   function Validate_Context(){
+   function Validate_Context($context){
        return "";
    }
 
-   function Validate_Images(){
+   function Validate_Images($path_file){
        return "";
    }
 
-   function Validate_Video(){
+   function Validate_Video($path_file){
        return "";
    }
 

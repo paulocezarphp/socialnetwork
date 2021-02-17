@@ -9,39 +9,43 @@
    that is, it is optional and not affects the overall validation of what is being performed.
    ------------------------------------------------------------------------------------------------*/
 
-    function Validate_Name_Edit(){
+    function Validate_Name_Edit($name){
 
     }
 
-    function Validate_NameUser_Edit(){
+    function Validate_Telephone_Edit($telephone){
 
     }
 
-    function Validate_Country_Of_Origin_Edit(){
+    function Validate_NameUser_Edit($name){
 
     }
 
-    function Validate_Language_Edit(){
+    function Validate_Country_Of_Origin_Edit($country){
 
     }
 
-    function Validate_Email_Edit(){
+    function Validate_Language_Edit($language){
+
+    }
+
+    function Validate_Email_Edit($email){
     	
     }
 
-    function Validate_Password_Edit(){
+    function Validate_Password_Edit($password){
     	
     }
 
-    function Validate_Repeat_Password_Edit(){
+    function Validate_Repeat_Password_Edit($password){
       
     }
 
-    function Validate_Photo_Edit(){
+    function Validate_Photo_Edit($path_file){
     	
     }
 
-    function Validate_Description_Edit(){
+    function Validate_Description_Edit($description){
     	
     }
 
@@ -51,7 +55,7 @@
         //only friends	
     }
 
-    function Validate_date_of_birth_Edit(){
+    function Validate_date_of_birth_Edit($birth_day, $birth_month, $birth_year){
     	
     }
 
