@@ -1,30 +1,31 @@
 <?php
 
-    function CreateUser(){
+    function CreateUser($name, $login, $password, $date_create, $term_accept, $term_version, 
+        $user_status, $user_nationality){
 
     }
 
-    function DeleteUser(){
+    function DeleteUser($id_user){
     	
     }
 
-    function EditUser(){
+    function EditUser($id_user){
     	
     }
 
-    function PenalizeUser(){
+    function PenalizeUser($id_user){
 
     }
 
-    function FollowUser(){
+    function FollowUser($id_user, $id_user_follow){
     	
     }
 
-    function UnFollowUser(){
+    function UnFollowUser($id_user, $id_user_unfollow){
     	
     }
 
-    function BlockUser(){
+    function BlockUser($id_user, $id_user_block){
     	
     }
 
