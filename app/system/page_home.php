@@ -6,10 +6,47 @@
 <div class="container">
 	<div class="grid">
 		<div class="grid-left">
-			<h3>Pages</h3>
-
-
+            <div class="box">
+                <div class="h3">Pages</div>
+                <div class="page">
+                   <img src="app/system/icons/xadrez.svg" class="page-image">
+                   <div>
+                      <div class="page-name">Friends A</div>
+                   </div>
+                </div>               
+                <div class="page">
+                   <img src="app/system/icons/xadrez.svg" class="page-image">
+                   <div>
+                      <div class="page-name">Friends B</div>
+                   </div>
+                </div>
+                <div class="page">
+                   <img src="app/system/icons/xadrez.svg" class="page-image">
+                   <div>
+                      <div class="page-name">Friends A</div>
+                   </div>
+                </div>               
+                <div class="page">
+                   <img src="app/system/icons/xadrez.svg" class="page-image">
+                   <div>
+                      <div class="page-name">Friends B</div>
+                   </div>
+                </div>
+                <div class="page">
+                   <img src="app/system/icons/xadrez.svg" class="page-image">
+                   <div>
+                      <div class="page-name">Friends A</div>
+                   </div>
+                </div>                
+                <div class="page">
+                   <img src="app/system/icons/xadrez.svg" class="page-image">
+                   <div>
+                      <div class="page-name">Friends B</div>
+                   </div>
+                </div>
+            </div>
 		</div>
+
 		<div class="grid-center">
 			<div class="cardpost">
 				<div class="cardpost-context">
@@ -90,11 +127,8 @@
 
 		</div>
 		<div class="grid-right">
-			<h3>Friends</h3>
-            <br>
-
             <div class="box">
-
+                <div class="h3">Friends</div>
             	<div class="friend">
             	   <img src="app/system/image/friend1.jpg" class="friend-image">
             	   <div>

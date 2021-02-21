@@ -10,7 +10,7 @@
 	  <link rel="stylesheet" type="text/css" href="app/system/css/style_tablet.css">
     <link rel="stylesheet" type="text/css" href="app/system/css/style_desktop.css">
 </head>
-<body>
+<body style="background: #c43434; ">
 
 <?php
     

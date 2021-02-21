@@ -8,14 +8,14 @@
 	  <link rel="stylesheet" type="text/css" href="app/system/css/style.css">
 	  <link rel="stylesheet" type="text/css" href="app/system/css/style_mobile.css">
 	  <link rel="stylesheet" type="text/css" href="app/system/css/style_tablet.css">
-    <link rel="stylesheet" type="text/css" href="app/system/css/style_desktop.css">
+      <link rel="stylesheet" type="text/css" href="app/system/css/style_desktop.css">
 </head>
 <body>
    
    <?php
     
-     $user_validator = true;
-     @$page_view = $_GET['page'];
+        $user_validator = false;
+        @$page_view = $_GET['page'];
 
         if($user_validator == true){
             if($page_view == "home"){
@@ -23,6 +23,8 @@
             }else{
                 include("app/system/page_home.php");
             }
+        }else{
+            header("location: login");
         }
 
    ?>
