@@ -4,6 +4,7 @@
   @$operation = $_POST['operation'];
 
   if($validator != null || $validator != ""){
+
       if($operation == "validator_user_login"){
 
       }elseif($operation == "validator_user_registration"){
@@ -29,6 +30,7 @@
       }elseif($operation == "validate_user_delete"){
 
       }
+      
   }else{
       header('Location: ./');
   }

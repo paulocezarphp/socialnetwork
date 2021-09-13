@@ -8,7 +8,7 @@
 	  <link rel="stylesheet" type="text/css" href="app/system/css/style.css">
 	  <link rel="stylesheet" type="text/css" href="app/system/css/style_mobile.css">
 	  <link rel="stylesheet" type="text/css" href="app/system/css/style_tablet.css">
-      <link rel="stylesheet" type="text/css" href="app/system/css/style_desktop.css">
+    <link rel="stylesheet" type="text/css" href="app/system/css/style_desktop.css">
 </head>
 <body>
    

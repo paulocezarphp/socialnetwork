@@ -1,19 +1,21 @@
 <?php
    
-    function DateTimeFormat($date, $time){
+    function date_time_format($date, $time){
 
     }
    
-    function DateFormat($date){
+    function date_format($date){
 
     }
 
-    function TimeFormat($time){
+    function time_format($time){
    	
     }
 
-    function BetweenDates($date, $time){
+    function between_dates($date, $time){
 
     }
+
+   
 
 ?>
