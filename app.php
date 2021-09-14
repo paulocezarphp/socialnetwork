@@ -5,6 +5,8 @@
 
   if($validator != null || $validator != ""){
 
+      include("app/system/php/operations/operation.php");
+
       if($operation == "validator_user_login"){
 
       }elseif($operation == "validator_user_registration"){
