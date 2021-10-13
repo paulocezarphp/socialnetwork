@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>User Master Admin</title>
+	<title>Social Network - Admin</title>
 </head>
 <body>
 
